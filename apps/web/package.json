@@ -11,11 +11,17 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
+    "@react-hook/window-size": "^3.1.1",
     "@repo/ui": "workspace:*",
     "@tailwindcss/postcss": "^4.0.0",
+    "@types/axios": "^0.14.4",
+    "axios": "^1.7.9",
+    "js-cookie": "^3.0.5",
+    "lucide-react": "^0.474.0",
     "next": "^15.1.6",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-hot-toast": "^2.5.1"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^15.1.6",
